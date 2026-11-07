@@ -1,0 +1,23 @@
+# Dependencies
+node_modules/
+package-lock.json.backup
+
+# Environment Variables & Secrets
+.env
+.env.local
+.env.development
+.env.production
+
+# Logs & Temporary Files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+.DS_Store
+Thumbs.db
+
+# Database Backup (Local SQLite Database should be preserved locally, schema provided via migration)
+*.db-journal
+*.db-wal
+*.db-shm
+
