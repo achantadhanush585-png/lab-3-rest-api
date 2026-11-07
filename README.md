@@ -692,23 +692,18 @@ All screenshots are genuinely captured from the live application and stored in `
 
 | # | Description | Preview |
 | :-: | :--- | :--- |
-| **01** | Server Startup & SQLite Database Initialization | ![01-server-started](screenshots/01-server-started.png) |
-| **02** | GET All Books | ![02-get-all-books](screenshots/02-get-all-books.png) |
-| **03** | GET Book by ID (ID: 2) | ![03-get-book-by-id](screenshots/03-get-book-by-id.png) |
-| **04** | Search Books by Keyword (`?search=python`) | ![04-search-books](screenshots/04-search-books.png) |
-| **05** | Sort Books Ascending (`?sort=asc`) | ![05-sort-ascending](screenshots/05-sort-ascending.png) |
-| **06** | Sort Books Descending (`?sort=desc`) | ![06-sort-descending](screenshots/06-sort-descending.png) |
-| **07** | Pagination (`?limit=2&page=1`) | ![07-pagination](screenshots/07-pagination.png) |
-| **08** | Price Range Filtering (`?minPrice=100&maxPrice=500`) | ![08-price-filter](screenshots/08-price-filter.png) |
-| **09** | POST Create Book (Success 201) | ![09-post-success](screenshots/09-post-success.png) |
-| **10** | POST Input Validation Error (Negative Price 400) | ![10-post-validation](screenshots/10-post-validation.png) |
-| **11** | PUT Update Book (Success 200) | ![11-put-success](screenshots/11-put-success.png) |
-| **12** | PUT Input Validation Error (Empty Title 400) | ![12-put-validation](screenshots/12-put-validation.png) |
-| **13** | DELETE Book (Success 200) | ![13-delete-success](screenshots/13-delete-success.png) |
-| **14** | DELETE Non-Existent Book ID (404 Not Found) | ![14-delete-not-found](screenshots/14-delete-not-found.png) |
-| **15** | Invalid Route Catch-All (404 Not Found) | ![15-invalid-route](screenshots/15-invalid-route.png) |
-| **16** | Debugging Exercise 1: Missing `express.json()` Middleware | ![16-debugging-exercise-1](screenshots/16-debugging-exercise-1.png) |
-| **17** | Debugging Exercise 2: SQL Column Typo & Injection Prevention | ![17-debugging-exercise-2](screenshots/17-debugging-exercise-2.png) |
+| **01** | GET All Books | ![GET All Books](screenshots/GET%20All%20Books.png) |
+| **02** | GET Book by ID (ID: 1) | ![GET Book by ID](screenshots/GET%20Book%20by%20ID.png) |
+| **03** | Search Books by Keyword (`?search=python`) | ![Search Books](screenshots/Search%20Books.png) |
+| **04** | Sort Books Ascending (`?sort=asc`) | ![Sorting Ascending](screenshots/Sorting%20Ascending.png) |
+| **05** | Sort Books Descending (`?sort=desc`) | ![Sorting Descending](screenshots/Sorting%20Descending.png) |
+| **06** | Pagination (`?page=1&limit=2`) | ![Pagination](screenshots/Pagination.png) |
+| **07** | Price Range Filtering (`?minPrice=200&maxPrice=500`) | ![Price Filtering](screenshots/Price%20Filtering.png) |
+| **08** | Combined Query Filter (`?search=...&sort=...&page=...`) | ![Combined Query](screenshots/Combined%20Query.png) |
+| **09** | POST Create Book (Success 201 Created) | ![POST Successful Request](screenshots/POST%20Successful%20Request.png) |
+| **10** | POST Input Validation Error (400 Bad Request) | ![POST Validation Error](screenshots/POST%20Validation%20Error.png) |
+| **11** | PUT Update Book (Success 200 OK) | ![PUT Update Request](screenshots/PUT%20Update%20Request.png) |
+| **12** | DELETE Book Resource (Success 200 OK) | ![DELETE Request](screenshots/DELETE%20Request.png) |
 
 ---
 
