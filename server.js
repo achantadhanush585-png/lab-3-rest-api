@@ -14,10 +14,24 @@ app.get("/", (req, res) => {
         status: "OK",
         message: "Book Management REST API is running",
         version: "1.0.0",
+        author: "Dhanush Achanta",
         endpoints: {
             books: "/books",
+            about: "/about",
             health: "/health"
         }
+    });
+});
+
+// Student Metadata Endpoint
+app.get("/about", (req, res) => {
+    res.status(200).json({
+        name: "Dhanush Achanta",
+        registrationNumber: "252U1R5085",
+        section: "CSE AIDE-2A-106",
+        subject: "Backend Development Fundamentals",
+        lab: "Lab 3 – REST API, Query Parameters, Validation and Debugging",
+        institution: "Aurora Deemed to be University"
     });
 });
 

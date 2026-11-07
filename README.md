@@ -1,5 +1,21 @@
 # Backend Development Fundamentals – Lab 3: Book Management REST API
 
+##  Student Academic Profile
+
+- **Student Name:** Dhanush Achanta
+- **Registration / Roll Number:** 252U1R5085
+- **Section:** CSE AIDE-2A-106
+- **Subject:** Backend Development Fundamentals
+- **Lab:** Lab 3 – REST API, Query Parameters, Validation and Debugging
+- **Institution:** Aurora Deemed to be University
+- **Repository:** https://github.com/achantadhanush585-png/lab-3-rest-api
+- **Live Deployment URL:** https://dhanush-lab3-api.onrender.com
+
+---
+
+A production-grade, secure, and fully validated RESTful API for managing a book catalog, built with **Node.js**, **Express.js**, and an embedded **SQLite** database engine. This project implements complete CRUD operations, advanced query parameters (search, sorting, pagination, price range filtering, combined queries), strict input validation, security controls against SQL injection, and structured error responses.
+
+
 A production-grade, secure, and fully validated RESTful API for managing a book catalog, built with **Node.js**, **Express.js**, and an embedded **SQLite** database engine. This project implements complete CRUD operations, advanced query parameters (search, sorting, pagination, price range filtering, combined queries), strict input validation, security controls against SQL injection, and structured error responses.
 
 ---

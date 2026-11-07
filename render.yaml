@@ -1,10 +1,11 @@
 services:
   - type: web
-    name: lab-3-book-management-api
-    runtime: node
+    name: dhanush-lab3-api
+    env: node
     plan: free
+    region: singapore
     buildCommand: npm install
-    startCommand: npm start
+    startCommand: node server.js
     envVars:
       - key: NODE_ENV
         value: production
